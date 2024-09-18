@@ -4,7 +4,7 @@
 
 <a name="readme-top"></a>
 
-# The Auth
+# The PsswsGen
 
 A next-generation Python Password Generator
 
