@@ -36,4 +36,4 @@ Ce projet est destiné à un usage éducatif. Il est conseillé d'utiliser un ge
 
 ## 📜 Licence
 
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
