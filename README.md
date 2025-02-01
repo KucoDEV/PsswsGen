@@ -1,65 +1,39 @@
-<div align="center">
+# 🔑 Générateur de mots de passe
 
-<a href="https://gowebly.org" target="_blank" title="Go to the Gowebly CLI website"><img width="196px" alt="gowebly logo" src="https://raw.githubusercontent.com/gowebly/.github/main/images/gowebly-logo.svg"></a>
+## 📜 Description
 
-<a name="readme-top"></a>
+Ce projet est une application de génération de mots de passe aléatoires développée en Python avec une interface graphique basée sur Tkinter. Il permet de générer des mots de passe de différentes forces (faible, moyen, fort) et de les copier facilement dans le presse-papier.
 
-# The PsswsGen
+## ⚡ Fonctionnalités
 
-A next-generation Python Password Generator
+- Génération de mots de passe aléatoires.
+- Différents niveaux de sécurité : faible, moyen, fort.
+- Possibilité de choisir la longueur du mot de passe.
+- Copie rapide du mot de passe généré.
+- Interface utilisateur simple et intuitive avec Tkinter.
 
-**&searr;&nbsp;&nbsp;The official documentation&nbsp;&nbsp;&swarr;**
+## 🛠️ Prérequis
 
-[English](https://github.com/KucoDEV/PsswsGen/blob/main/README.md)
+Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
 
-**&searr;&nbsp;&nbsp;Share the project's link to your friends&nbsp;&nbsp;&swarr;**
+```
+pip install pyperclip
+```
 
-[![Share on X][x_share_img]][x_share_url]
-[![Share on Telegram][telegram_share_img]][telegram_share_url]
-[![Share on Reddit][reddit_share_img]][reddit_share_url]
+## 🚀 Installation et exécution
 
-</div>
+1. Clonez ce repository ou téléchargez le fichier `main.py`.
+2. Exécutez le script avec la commande :
+   ```
+   python main.py
+   ```
+3. Sélectionnez la force du mot de passe et sa longueur, puis cliquez sur "Gen" pour générer un mot de passe.
+4. Utilisez le bouton "Copier" pour l'enregistrer dans votre presse-papier.
 
-## ✨ Features
+## ⚠️ Avertissement
 
-- 100% **free** and **open source**!
-- For **any** developer's level of knowledge and technical expertise, as the intelligent tool does most of the routine project setup for you, creates an understandable structure, and prepares code for use and deployment in production.
-- Enables you to **start a new python project faster**.
-- Ready-to-use auth system that can run in **any environment**.
+Ce projet est destiné à un usage éducatif. Il est conseillé d'utiliser un gestionnaire de mots de passe sécurisé pour les besoins sensibles.
 
-## ⚡️ Quick start
+## 📜 Licence
 
-First, [download](https://www.python.org/downloads/) and install **Python**. Version `3.10` (or higher) is required for the code generated.
-
-Now, you can use the **PsswsGen** without installation. Just run the python file!
-
-That's it! 🔥 A wonderful web application to help you create TKinter window.
-
-<div align="right">
-
-[&nwarr; Back to top](#readme-top)
-
-</div>
-
-## 🌟 Stars
-
-<picture>
-  <source srcset="https://api.star-history.com/svg?repos=KucoDEV/PsswsGen&type=Date&theme=dark"/>
-  <img width="100%" alt="The Gowebly CLI star history chart" src="https://api.star-history.com/svg?repos=KucoDEV/PsswsGen&type=Date"/>
-</picture>
-
-## ⚠ License
-
-[`The PsswsGen`][repo_url] is free and open-source software licensed under the [Apache 2.0 License].
-
-<!-- Repository links -->
-[repo_url]: https://github.com/KucoDEV/PsswsGen
-
-<!-- Social links -->
-[x_share_url]: https://x.com
-[telegram_share_url]: https://t.me
-[reddit_share_url]: https://www.reddit.com
-[x_share_img]: https://img.shields.io/badge/x_(twitter)-black?style=for-the-badge&logo=x
-[telegram_share_img]: https://img.shields.io/badge/telegram-black?style=for-the-badge&logo=telegram
-[whatsapp_share_img]: https://img.shields.io/badge/whatsapp-black?style=for-the-badge&logo=whatsapp
-[reddit_share_img]: https://img.shields.io/badge/reddit-black?style=for-the-badge&logo=reddit
+Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
