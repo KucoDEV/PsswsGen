@@ -1,39 +1,39 @@
-# 🔑 Générateur de mots de passe
+# 🔑 Password Generator
 
 ## 📜 Description
 
-Ce projet est une application de génération de mots de passe aléatoires développée en Python avec une interface graphique basée sur Tkinter. Il permet de générer des mots de passe de différentes forces (faible, moyen, fort) et de les copier facilement dans le presse-papier.
+This project is a random password generator application developed in Python with a graphical user interface based on Tkinter. It allows generating passwords with different strengths (weak, medium, strong) and easily copying them to the clipboard.
 
-## ⚡ Fonctionnalités
+## ⚡ Features
 
-- Génération de mots de passe aléatoires.
-- Différents niveaux de sécurité : faible, moyen, fort.
-- Possibilité de choisir la longueur du mot de passe.
-- Copie rapide du mot de passe généré.
-- Interface utilisateur simple et intuitive avec Tkinter.
+- Random password generation.
+- Different security levels: weak, medium, strong.
+- Option to choose password length.
+- Quick copy of the generated password.
+- Simple and intuitive user interface with Tkinter.
 
-## 🛠️ Prérequis
+## 🛠️ Prerequisites
 
-Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
+Make sure you have Python installed on your machine as well as the following modules:
 
 ```
 pip install pyperclip
 ```
 
-## 🚀 Installation et exécution
+## 🚀 Installation and Execution
 
-1. Clonez ce repository ou téléchargez le fichier `main.py`.
-2. Exécutez le script avec la commande :
+1. Clone this repository or download the `main.py` file.
+2. Run the script with the command:
    ```
    python main.py
    ```
-3. Sélectionnez la force du mot de passe et sa longueur, puis cliquez sur "Gen" pour générer un mot de passe.
-4. Utilisez le bouton "Copier" pour l'enregistrer dans votre presse-papier.
+3. Select the password strength and length, then click "Gen" to generate a password.
+4. Use the "Copy" button to save it to your clipboard.
 
-## ⚠️ Avertissement
+## ⚠️ Warning
 
-Ce projet est destiné à un usage éducatif. Il est conseillé d'utiliser un gestionnaire de mots de passe sécurisé pour les besoins sensibles.
+This project is intended for educational use. It is recommended to use a secure password manager for sensitive needs.
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
+This project is licensed under the MIT license. You are free to modify and redistribute it.
